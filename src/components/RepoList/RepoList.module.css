@@ -33,3 +33,20 @@
     padding: 8px;
     border-radius: 4px;
 }
+
+.errorMessage{
+    background-color: red;
+    color: var(--corTerciaria);
+    text-align: center;
+    font-weight: bold;
+    width: 35vw;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+@media(max-width:767px){
+    .errorMessage{
+        width: 70vw;
+    }
+}
