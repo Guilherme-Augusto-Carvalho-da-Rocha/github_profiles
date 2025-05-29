@@ -1,0 +1,35 @@
+.reposList{
+    background-image: linear-gradient(to bottom, var(--corPrincipal), var(--corTerciaria));
+    padding-top: 80px;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.listItem{
+    list-style: none;
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background-color: var(--corTerciaria);
+}
+
+.listItemName, .listItemLanguage{
+    b{
+        margin-right: 8px;
+    }
+}
+.listItemLink{
+    display: block;
+    background-color: var(--corSecundaria);
+    color: var(--corTerciaria);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
